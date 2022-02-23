@@ -40,8 +40,6 @@ h3{
     background: #FFFFFF;
 }
 
-@keyframes backinleft{
-}
 .news{
     font-family: 'Belleza', sans-serif;
     font-style: normal;
@@ -50,9 +48,6 @@ h3{
     line-height: 83px;
     text-align: center;
     color: #000000;
-    display: inline-block;
-    margin: 0 0.5rem;
-    animation-duration: 2s;
     }
 .image-box{
     display: flex;
