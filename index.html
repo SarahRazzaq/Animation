@@ -17,7 +17,25 @@
         </div>
     </header>
     <div class="main-content">
-       <p class="news">NEW PRODUCTS</p> 
+        <style>
+         .news {
+            animation-duration: 3s;
+            animation-name: slidein;
+            }
+
+            @keyframes slidein {
+            from {
+                margin-left: 100%;
+                width: 300%;
+            }
+
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+            }
+        </style>
+         <div class="news"><p>NEW PRODUCTS</p></div>
         <div class="image-box">
             <div class="perfume-box">
                 <img class="image" src="Images/images_perfume1.jpg" alt="Giorgio_Armani_you">

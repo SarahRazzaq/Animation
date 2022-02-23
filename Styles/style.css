@@ -39,7 +39,10 @@ h3{
     top: 198px;
     background: #FFFFFF;
 }
-
+@keyframes slidein {
+    from {right: 0px;}
+    to{right: 750px;}
+}
 .news{
     font-family: 'Belleza', sans-serif;
     font-style: normal;
@@ -48,6 +51,7 @@ h3{
     line-height: 83px;
     text-align: center;
     color: #000000;
+    overflow: hidden;
     }
 .image-box{
     display: flex;
