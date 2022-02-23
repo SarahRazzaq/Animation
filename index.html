@@ -37,6 +37,18 @@
         </style>
          <div class="news"><p>NEW PRODUCTS</p></div>
         <div class="image-box">
+            <style> 
+                .perfume-box {
+                    transition: ease-in-out;
+                    transition-delay: 1s;
+                }
+            
+                .perfume-box:hover {
+                    transition-duration: 0,9;
+                    transition: ease-in-out;
+                    transform: scale(1.5);
+                }
+                </style>
             <div class="perfume-box">
                 <img class="image" src="Images/images_perfume1.jpg" alt="Giorgio_Armani_you">
             </div>
@@ -47,7 +59,14 @@
                 <img class="image" src="images/images_perfume4.jpg" alt="Giorgio_Armani_Si">
             </div>
       </div>
-        <p class="instore">IN STORE NOW!</p>
+      <style>
+          .animate__bounceIn{
+            margin: 0 0.5rem;
+            animation: bounce; /* referring directly to the animation's @keyframe declaration */
+            animation-duration: 5s
+            }
+      </style>
+        <p class="animate__bounceIn">IN STORE NOW!</p>
     </div>
     <footer>
         <h2>ANTARCTICA</h2>
