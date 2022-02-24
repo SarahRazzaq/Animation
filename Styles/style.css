@@ -5,7 +5,15 @@ body{
 header{
     width: 100%;
     height: auto;
+    padding: 15px;
     background: #F2E4E4;
+}
+
+.svg_container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
 }
 h1{
     border: none;
@@ -14,7 +22,7 @@ h1{
     font-family: 'Belleza', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 64px;
+    font-size: 96px;
     line-height: 74px;
     text-align: center;
     color: #000000;
@@ -39,11 +47,10 @@ h3{
     top: 198px;
     background: #FFFFFF;
 }
-@keyframes slidein {
-    from {right: 0px;}
-    to{right: 750px;}
-}
+
 .news{
+    width: auto;
+    height: auto;
     font-family: 'Belleza', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -51,7 +58,6 @@ h3{
     line-height: 83px;
     text-align: center;
     color: #000000;
-    overflow: hidden;
     }
 .image-box{
     display: flex;
@@ -61,10 +67,16 @@ h3{
 .perfume-box{
     width: 380px;
     height: 467px;
+    padding: 15px;
     left: 85px;
     top: 185px;
     background: #FFFFFF;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); 
+    transition: ease-in;
+    transition-duration: 1s;
+}
+.perfume-box:hover {
+    transform: scale(1.5);
 }
 .image{
     width: 380px;
@@ -82,6 +94,9 @@ h3{
     line-height: 83px;
     text-align: center;
     color: #000000;
+     margin: 0 0.5rem;
+    animation: bounce;
+    animation-duration: 5s  
 }
 footer{
     width: 100%;
@@ -97,3 +112,12 @@ footer{
     text-align: center;
     color: #000000;
 }
+
+.vr_image{
+    width: 300px;
+    height: 300px;
+    position: center;
+}
+
+  
+
